@@ -1,32 +1,123 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Stalinist One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(res/StalinistOne-Regular.ttf);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+#title {
+  font-family: 'Stalinist One', cursive;
+  vertical-align: middle;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.bright {
+  color: black;
+}
+
+.dark {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+html, body, #root, .body, .container {
+  min-height: 100vh;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  max-width: 100%;
+}
+
+blockquote {
+  color: green;
+}
+
+.container {
+  background-color: #009688;
+}
+
+.icon {
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.idDisplay {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 1.75vw;
+  line-height: 120%;
+}
+
+.threadWrapper {
+  background-color: lightgray;
+  width: 100%;
+
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.threadCard {
+  background-color: white;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.threadElement {
+  background-color: white;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  margin-left: -50px;
+  margin-right: -50px;
+  max-width: calc(100% + 100px) !important;
+  width: calc(100% + 100px) !important;
+}
+
+.threadContainer {
+  padding: 1rem;
+}
+
+.threadContainer a {
+  color: inherit;
+}
+
+.threadContainer a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.message {
+  background-color: white;
+  margin-bottom: 0.5rem;
+  margin-left: -25px;
+  margin-right: -25px;
+  max-width: calc(100% + 50px) !important;
+  width: calc(100% + 50px) !important;
+}
+
+.newMessage{
+  background-color: white;
+  margin-left: -40px;
+  margin-right: -40px;
+  max-width: calc(100% + 80px) !important;
+  width: calc(100% + 80px) !important;
+  margin-bottom: 0.5rem;
+
+}
+
+.noPadding {
+  padding: 0 !important;
+}
+
+.markdown p {
+  margin-bottom: 0;
+}
+
+.timestamp {
+  font-size: 0.75em;
+}
+
+.modal-dialog {
+  max-width: 66% !important;
 }
