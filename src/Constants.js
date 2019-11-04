@@ -7,5 +7,5 @@ export class Constants {
     };
 
     static api = "https://api.octopub.cf";
-    static androidLink = "https://github.com/SilasAlroe/OctoPub-Android";
+    static androidLink = "https://github.com/SarahAlroe/OctoPub-Android";
 }
